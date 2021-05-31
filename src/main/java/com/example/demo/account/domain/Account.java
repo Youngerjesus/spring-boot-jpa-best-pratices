@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package com.example.demo.account.domain;
 
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -19,8 +19,8 @@ public class Account {
     @GeneratedValue
     private Long id;
 
-    @Column(nullable = false, unique = true)
-    private String email;
+    @Embedded
+    Email email;
 
     @Column(name = "first_name", nullable = false)
     private String firstName;
@@ -40,7 +40,7 @@ public class Account {
     private Date updatedAt;
 
     @Builder
-    public Account(String email, String firstName, String lastName, String password) {
+    public Account(Email email, String firstName, String lastName, String password) {
         this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;
