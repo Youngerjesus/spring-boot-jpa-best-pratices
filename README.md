@@ -12,7 +12,9 @@ https://github.com/cheese10yun/spring-jpa-best-practices
 
 [3. 패치조인 잘 사용하기 1 - 지연로딩 최적화](docs/3.md)
 
-[4. 패치조인 잘 사용하기 2 - 컬렉션 조회 최적화](docs/4.md) 
+[4. 패치조인 잘 사용하기 2 - 컬렉션 조회 최적화](docs/4.md)
+
+[5. OSIV와 성능 최적화](docs/5.md) 
 ***
 
 
