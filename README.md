@@ -14,7 +14,9 @@ https://github.com/cheese10yun/spring-jpa-best-practices
 
 [4. 패치조인 잘 사용하기 2 - 컬렉션 조회 최적화](docs/4.md)
 
-[5. OSIV와 성능 최적화](docs/5.md) 
+[5. OSIV와 성능 최적화](docs/5.md)
+
+[6. Querydsl 잘 사용하기 - 우아한 형제들의 Querydsl 사용방법](docs/woowa.md) 
 ***
 
 
